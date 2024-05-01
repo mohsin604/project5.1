@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --primary:rgba(56, 42, 232, 0.702);
+    --secondary:rgb(236 41 107 / 70%);    
+      
+      --pane-padding: 5px 42px;
+    }
+    .main1{
+    width:100%;
+    margin:0;
+    font-size: 4.5rem;
+    font-family: "Nunito", sans-serif;
+    color: #FFF;
+    display: grid;
+      background: linear-gradient(-225deg, var(--primary) 35%,var(--secondary)100%),
+      url("https://www.spruko.com/demo/eudica/Eudica/assets/images/banners/banner1.jpg") no-repeat center center / cover;
+     
+  
+    }
+  
+  
+  
+  .square3 img{
+    height: 200px;
+    widtH: 400px;
+  }
+  .square3 {
+    height: 200px;
+    widtH: 400px;
+    position: relative;
+  
+  }
+  .square3:hover .img-98 {
+    transform: scale(1.2);
+  }
+  .square3 {
+    overflow: hidden;
+    border-radius: 3px;
+  }
+
+
+
+  .square3:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    transition: height 0.5s ease-out;
+    /* background: linear-gradient(to bottom, transparent 0%, black 100%); */
+    background: linear-gradient(-425deg, rgb(236 41 107 / 70%)35%,rgba(56, 42, 232, 0.702) 100%);
+    z-index: 3;
+  }
+  .square3:hover:before {
+    height: 100%;
+  }
+  .card3{
+    width: 400px;
+    border: 1px solid #6987ab;
+  }
+  .sharebtn3{
+   margin-top: -50px;
+   display: flex;
+   flex-direction: row;
+   z-index: 4;
+  }
+  .sharebtn3.icon3 {
+    margin: auto;
+  }
+  .icon32{
+    padding-left:5px ;
+    display: flex;
+    /* justify-content: flex-end; */
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    align-items: center;
+    z-index: 4;
+  }
+  .icon33{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 46px;
+    width: 25px;
+    height: 25px;
+    align-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    justify-content: center;
+    
+  }
+  .btn3{
+   margin-left: 60%;
+   z-index: 4;
+  }
+  .btn3 button{
+    background-color: #f84242;
+    border: 0;
+    width: 95px;
+    height: 35px;
+    border-radius: 5px;
+    color: #FFF;
+  }
+  
+  
+  .cardh3{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    line-height: 22pxs;
+    margin: 0;
+    color: #5e748e;
+  }
+  .cardp3{
+    color: #5e748e;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    line-height: 21px;
+    margin: 0;
+    padding-right: 35%;
+  }
+  .crdico3{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: ; */
+  }
+  .cards3{
+    padding: 5%;
+  }
+  .point {
+    display: flex;
+    justify-content: space-between;
+        padding: 0.75rem 3%;
+  }
+  .me-4.float-end{
+    text-decoration: none;
+  }
+  .me-4 {
+    color:#5e748e ;
+  }
+  .btnus{
+    padding: 15px 0;
+    text-align: center;
+    justify-content: center;
+  }
+  .btn33{
+    height: 35px;
+    background-color:#EC296B;
+    border: 0;
+    border-radius: 5px;
+    width: 350px;
+    color: #FFF;
+  }
+
+  /* Import Google font - Poppins */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+  
+  .card14 {
+  display: flex;
+  padding: 0 35px;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 50px; */
+  }
+  .wrapper3 {
+  /* max-width: 1100px; */
+  width: 100%;
+  position: relative;
+  }
+  #left {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-family: "Nunito", sans-serif;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+  
+  }
+  #right {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-family: "Nunito", sans-serif;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+    
+  }
+  .wrapper3 i:active{
+  transform: translateY(-50%) scale(0.85);
+  }
+  .wrapper3 i:first-child{
+  left: -22px;
+  }
+  .wrapper3 i:last-child{
+  right: -48px;
+  }
+  .wrapper3 .carousel3{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) );
+  gap: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+
+  /* border-radius: 8px; */
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  }
+  .carousel3::-webkit-scrollbar {
+  display: none;
+  }
+  .carousel3.no-transition {
+  scroll-behavior: auto;
+  }
+  .carousel3.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+  }
+  .carousel3.dragging .card3{
+  cursor: grab;
+  user-select: none;
+  }
+  /* .carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  } */
+  .carousel3 .card3 {
+  scroll-snap-align: start;
+  height: 530px;
+  width: 400px;
+  list-style: none;
+  
+  cursor: pointer;
+  /* padding: 20px; */
+  /* flex-direction: column; */
+  /* border-radius: 5px; */
+    /* border: solid; */
+    /* border-width: 1px; */
+    /* border-color: #4b5d73; */
+    
+  }
+
+  
+  @media screen and (max-width: 900px) {
+  .wrapper2 .carousel2 {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+  }
+  
+  @media screen and (max-width: 600px) {
+  .wrapper2 .carousel2 {
+    grid-auto-columns: 100%;
+  }
+  }
+  
+  
+
+
+  /* body {
+    background-color:#4A148C
+} */
+
