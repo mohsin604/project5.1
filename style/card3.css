@@ -183,8 +183,8 @@ justify-content: center;
 /* padding-bottom: 50px; */
 }
 .wrapper2 {
-max-width: 1100px;
-width: 80%;
+/* max-width: 1100px;
+width: 80%; */
 position: relative;
 }
 #left3 {
@@ -232,7 +232,7 @@ right: -48px;
 .wrapper2 .carousel2{
 display: grid;
 grid-auto-flow: column;
-grid-auto-columns: calc((100% / 3) - 4px);
+grid-auto-columns: calc((100% / 4) - px);
 overflow-x: auto;
 scroll-snap-type: x mandatory;
 gap: 18px;
@@ -274,38 +274,7 @@ cursor: pointer;
   /* border-color: #4b5d73; */
   
 }
-/* .carousel .card .img {
-height: 148px;
-width: 148px;
-border-radius: 50%;
-} */
-/* .card .img img {
-width: 100px;
-height: 100px;
-border-radius: 50%;
-object-fit: cover;
-border: 4px solid #fff;
-} */
-/* .carousel .card h2 {
-font-weight: 400;
-font-size: 14px;
-line-height: 21;
-margin: 30px 0 5px;
-} */
-/* .carousel .card span {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21;
-  background-color: #EC296B;
-  color: #fff;
-  padding-top: 2px;
-} */
-/* .numbr {
-  height: 25px;
-  width: 35px;
-  text-align: center;
-  border-radius: 50px;
-} */
+
 
 @media screen and (max-width: 900px) {
 .wrapper2 .carousel2 {
@@ -314,7 +283,7 @@ margin: 30px 0 5px;
 }
 
 @media screen and (max-width: 600px) {
-.wrapper2 .carousel2 {
+.wrapper2 .carousel2 { 
   grid-auto-columns: 100%;
 }
 }

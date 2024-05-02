@@ -19,7 +19,7 @@
  padding-bottom: 50px;
 }
 .wrapper {
-  max-width: 1100px;
+  /* max-width: 100px; */
   width: 100%;
   position: relative;
 }
@@ -52,10 +52,10 @@
 .wrapper .carousel{
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 3) - 4px);
+  grid-auto-columns: calc((100% / 4) - 4px);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  gap: 14px;
+  /* gap: 10px; */
   border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
