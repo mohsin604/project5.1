@@ -1,23 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
-    --primary:rgba(56, 42, 232, 0.702);
-    --secondary:rgb(236 41 107 / 70%);    
+    --primary:rgba(56, 42, 232, 0.7);
+    --secondary:rgb(236, 41, 107 , 0.7);    
       
       --pane-padding: 5px 42px;
     }
-    .main1{
-    width:100%;
-    margin:0;
-    font-size: 4.5rem;
-    font-family: "Nunito", sans-serif;
-    color: #FFF;
-    display: grid;
-      background: linear-gradient(-225deg, var(--primary) 35%,var(--secondary)100%),
-      url("https://www.spruko.com/demo/eudica/Eudica/assets/images/banners/banner1.jpg") no-repeat center center / cover;
+  
      
   
-    }
+  
   
   
   
@@ -36,7 +28,7 @@
   }
   .square3 {
     overflow: hidden;
-    border-radius: 3px;
+    /* border-radius: 3px; */
   }
 
 
@@ -48,9 +40,9 @@
     height: 0%;
     width: 100%;
     bottom: 0;
-    transition: height 0.5s ease-out;
+    /* transition: height 0.5s ease-out; */
     /* background: linear-gradient(to bottom, transparent 0%, black 100%); */
-    background: linear-gradient(-425deg, rgb(236 41 107 / 70%)35%,rgba(56, 42, 232, 0.702) 100%);
+    background:linear-gradient(-225deg, var( --primary) 35%, var(--secondary  ) 100%);
     z-index: 3;
   }
   .square3:hover:before {
@@ -111,7 +103,7 @@
     font-family: "Nunito", sans-serif;
     line-height: 22pxs;
     margin: 0;
-    color: #5e748e;
+    color: #2e384d;
   }
   .cardp3{
     color: #5e748e;
@@ -125,8 +117,18 @@
   .crdico3{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 13px;
+    line-height: 20px;
     /* text-align: ; */
   }
+.crdico3 p:hover{
+  color: #EC296B;
+}
+.crdico3 i{
+  padding:0 8px 0 0;
+}
   .cards3{
     padding: 5%;
   }
@@ -142,7 +144,7 @@
     color:#5e748e ;
   }
   .btnus{
-    padding: 15px 0;
+    padding: 12px 0 0 0;
     text-align: center;
     justify-content: center;
   }
@@ -170,7 +172,7 @@
   width: 100%;
   position: relative;
   }
-  #left {
+  #left4 {
   top: 50%;
   height: 50px;
   width: 50px;
@@ -187,7 +189,7 @@
   transition: transform 0.1s linear;
   
   }
-  #right {
+  #right4 {
     top: 50%;
     height: 50px;
     width: 50px;
@@ -246,7 +248,7 @@
   } */
   .carousel3 .card3 {
   scroll-snap-align: start;
-  height: 530px;
+  height: 510px;
   width: 400px;
   list-style: none;
   

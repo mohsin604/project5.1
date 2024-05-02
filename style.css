@@ -8,6 +8,7 @@
   .main1{
   width:100%;
   margin:0;
+  height: 600px;
   font-size: 4.5rem;
   color: #FFF;
   display: grid;
@@ -41,15 +42,17 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+
 }
   .icon{
     font-size: 14px;
     color:#FFF;
     font-family: "Nunito", sans-serif;
     /* display: flex; */
-    /* flex-direction: ; */
-  
-     
+    /* flex-direction: ; */   
+  }
+ .icon p i{
+    padding: 0 8px 0 0;
   }
   .icon3{ 
     display: flex;
@@ -185,16 +188,33 @@
 .nav3{
   background-color: #362ae8;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
   height: 60px;
+
+}
+.nav3 nav{
+  display: flex;
+  justify-content: space-between;
+}
+.navbtn{
+  height: 35px;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #ec296b;
+  font-family: "Nunito", sans-serif;
+  border: 0;
+  width: 100px;
+  border-radius: 5px;
+  color: #ffffff;
 }
 .nav3 ul {
   display: flex;
   list-style: none;
   align-items: center;
   /* align-content: center; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 60px;
 }
 .nav3 ul{
   padding: 0;
@@ -309,7 +329,7 @@ border: 0;
   z-index: 1;
   position: fixed;
   margin-left: 98%;
-  margin-top: 12%;
+  margin-top: 14%;
 
 }
 .spinbtn button{
@@ -318,7 +338,7 @@ border: 0;
   font-size: 18px;
   border: 0;
   height: 35px;
-  width: 30px;
+  width: 35px;
   position: fixed;
   
 }
@@ -329,8 +349,8 @@ border: 0;
 #btn-back-to-top {
   background-color: #EC296B;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 15px;
+  right: 15px;
   display: none;
   border-radius: 0;
   height: 55px;
@@ -338,7 +358,7 @@ border: 0;
 #btn-back-to-top:hover {
   background-color: #ffffff;
   color: #ec296b;
-  border: 1pX solid #ec296b;
+  border: 2pX solid #ec296b;
 
 }
  /* Section 2 */
@@ -350,26 +370,28 @@ border: 0;
 }
 
 .divider {
-  font-size: 14px;
+  
   font-family: "Nunito", sans-serif;
   display: flex;
   align-items: center;
-  padding: 0 602px;
-
+  padding: 0 570px;
+  
 }
 
 .divider::before, .divider::after {
   flex: 1;
   content: '';
-  padding: 3px;
+  padding: 1px;
   background-color: #4b5d73;
+  
 }
+
 .Categories{
   color: #4b5d73;
   font-weight: 600;
-  font-size: 40px;
-  font-family: "Nunito", sans-serif;
-  line-height: 44px;
+  font-size: 32px;
+  font-family: "Nunito",sans-serif;
+  line-height: 35px;
 
 }
 .paragraph2{
@@ -389,8 +411,9 @@ border: 0;
   font-family: "Nunito", sans-serif;
   color: #FFF;
   display: grid;
-  background:linear-gradient(rgb(19, 48, 95) , rgb(19, 48, 95)),
-  url(/image/banner5.jpg) no-repeat center center / cover;
+  /* background:
+  url(/image/banner5.jpg) no-repeat center center / cover; */
+  background-color: rgba(5, 36, 86, 0.9) !important;
 
 }
 .down{
@@ -438,7 +461,6 @@ border: 0;
   width: 100%;
   bottom: 0;
   z-index: 3;
-  transition: height 0.5s ease-out;
   background: linear-gradient(-225deg, rgba(54, 42, 232, 0.7) 35%, rgba(236, 41, 107, 0.7) 100%) !important;
 }
 .square92:hover:before {
@@ -537,6 +559,7 @@ border: 0;
   justify-content: center;
   border-radius: 50%;
   transform: translateY(-50%);
+  
 }
 
 .slider-wrapper .slide-button:hover {
@@ -631,14 +654,50 @@ border: 0;
     url("image/baneer.png") no-repeat center center / cover;
     padding:4%;
 }
+.dividerb {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0 600px;
+  
+}
 
+.dividerb::before, .dividerb::after {
+  flex: 1;
+  content: '';
+  padding: 1px;
+  background-color: #4b5d73;
+  
+}
+
+
+.besth{
+  font-size: 32px;
+  line-height: 37px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  padding-top: 5px;
+}
+.trainresp{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Nunito", sans-serif;
+}
 .testipic{
   display: flex;
   justify-content: center;
   gap: 25px;
 }
 .testiimg{
-  border: 5px solid #fefefe;
+  border: 4px solid #fefefe;
+  width: 80px;
+  height: 80px;
+}
+.testiimg:hover{
+  border: 4px solid #EC296B;
+  opacity: 0.5;
 }
 
 .testihp{ 
@@ -737,8 +796,8 @@ display: flex;
  /* padding-top: 5px; */
 }
 .divider2 {
-  font-size: 14px;
-  font-family: "Nunito", sans-serif;
+ 
+
   display: flex;
   align-items: center;
   padding-right: 50px;
@@ -750,7 +809,7 @@ display: flex;
 .divider2::before, .divider2::after {
   flex: 1;
   content: '';
-  padding: 3px;
+  padding: 0.5px;
   background-color: #ec296b;
 }
 
@@ -772,6 +831,9 @@ display: flex;
 .footericon{
   display: flex;
  gap: 20px;
+}
+.foterico1 li a i{
+  padding: 0 8px 0 0;
 }
  .footerico{
   background-color: #2F2257;

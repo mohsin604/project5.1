@@ -156,7 +156,7 @@
 .feedimg {
   display: flex;
   gap: 15px;
-  /* margin-top: 10px; */
+  margin-top: 25px;
   align-items: center;
 
 }
@@ -168,10 +168,12 @@
   align-items: center;
 }
 .likeh{
-  margin-left: 159px;
+  margin-left: 130px;
   color: #2e384d ;
 text-align: center;
-
+}
+.likeh i{
+  padding: 0 15px 0 0;
 }
 @media screen and (max-width: 900px) {
   .wrapper60 .carousel60 {
